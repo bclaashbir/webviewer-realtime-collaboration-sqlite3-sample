@@ -1,5 +1,5 @@
 {
-  "name": "webviewer-realtime-collaboration-sqlite3-sample",
+  "name": "webviewer-realtime-collaboration-sqlite3",
   "version": "1.0.0",
   "description": "WebViewer sample to show how you can create a real time collaboration app with WebViewer using WebSocket, SQLite3, and Node.js server.",
   "main": "client/index.js",
@@ -9,12 +9,12 @@
   },
   "author": "Apryse Systems Inc.",
   "dependencies": {
-    "@pdftron/webviewer": "^11.0.0",
-    "body-parser": "^1.18.3",
-    "express": "^4.16.4",
-    "fs-extra": "^9.0.0",
-    "open": "^6.1.0",
-    "sqlite3": "^4.0.6",
-    "ws": "^6.2.1"
+    "@pdftron/webviewer": "^11.3.0",
+    "body-parser": "^1.20.3",
+    "express": "^4.21.2",
+    "fs-extra": "^11.3.0",
+    "open": "^10.1.0",
+    "sqlite3": "^5.1.7",
+    "ws": "^8.18.0"
   }
 }
